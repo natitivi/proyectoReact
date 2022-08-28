@@ -1,0 +1,44 @@
+body
+
+.contador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    border: #2ff1ff;
+
+}
+.boton{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 32px;
+    width: 32px;
+    border-radius: 5px;
+}
+.boton1{
+    background-color: transparent;
+    padding: 5px;
+    color: black;
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.boton2{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 10rem;
+}
+.boton2:hover{
+    background-color: #2ff1ff;
+    padding: 5px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
